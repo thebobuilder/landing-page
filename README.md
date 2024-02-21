@@ -1,3 +1,3 @@
 # landing-page
 Landing Page HTML CSS
-OTP
+The Odin Project
