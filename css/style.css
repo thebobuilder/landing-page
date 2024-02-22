@@ -4,18 +4,95 @@
     /* border: 1px solid green; */
     list-style: none;
     text-decoration: none;
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0;
  }
 
- header {
+body {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;    
+    margin: auto;
+    height: 100vh;
+    }
+
+    .main {
+      justify-content: center;
+      align-items: center;
+    }
+
+ .header {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
+    height: 80px;
+    }
+
+ .left-header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
  }
 
- 
+ .left-header h1{
+   color: #f9faf8;
+   font-size: 24px;
+ }
+
+ .right-header {
+   flex: 1;
+ }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid white;
+    height: 200px;
+}
+
+
+.hero-left {
+   border: 1px solid red;
+   height: 100%;
+   width: 500px;
+}
+
+.hero-right {
+   border: 1px solid blue;
+   height: 100%;
+   width: 500px;
+}
 
  ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    align-content: center;
+    gap: 10px;
+
  }
+
+ footer{
+height: 50px
+ }
+
+ /*combos */
+ .header, .main, .info, .quote {
+   flex: 1 1 auto;
+ }
+
+ footer, .main, .hero{
+   background-color: #1f2937;
+   color: white;
+   
+ }
+
+ li a {
+   color: white;
+
+ }
+
+ 
