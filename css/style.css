@@ -66,7 +66,7 @@ body
 {
 	align-items: center;
 	display: flex;
-	height: 270px;
+	height: 280px;
 	justify-content: center;
 	width: 500px;
 }
@@ -77,15 +77,16 @@ body
 	background-color: #1f2937;
 	flex-direction: column;
 	gap: 10px;
-	justify-content: flex-start;
+	justify-content: space-evenly;
 	padding-right: 10px;
 }
 
-button
+.hero-button
 {
 	background-color: #3882f6;
 	border-radius: 10px;
    border-width: 0px;
+   color: white;
 	font-size: 16px;
 	padding: 8px 30px;
 }
@@ -163,7 +164,6 @@ button
 .cta
 {
 	background-color: white;
-	border: 1px solid orange;
 	flex: 1 1 340px;
    justify-content: center;
    align-items: center;
@@ -179,10 +179,7 @@ button
    align-items: center;
 }
 
-.cta-box button {
-   border: 1px solid white;
-   height: 30%;
-}
+
 
 .cta-text {
    color: white;
@@ -198,7 +195,6 @@ button
 .footer
 {
 	background-color: #1f2937;
-	border: 1px solid black;
 	display: flex;
 	height: 80px;
 	justify-content: center;
@@ -223,11 +219,15 @@ ul
 	justify-content: flex-end;
 }
 
-button
-{
-	box-shadow: none;
-	color: #e5e7ea;
-	font-weight: bold;
+.cta-box button {
+   border: 2px solid white;
+   box-shadow: none;
+   background-color: #3882f6 ;
+   border-radius: 20px;
+   color: white;
+   font-weight: bold;
+   height: 30%;
+   padding: 15px 40px;
 }
 
 .header-left
@@ -240,6 +240,7 @@ button
 	color: #e5e7eb;
 	display: block;
 	font-size: 18px;
+   margin: 0px;
 }
 
 .hero-left h1
@@ -247,7 +248,7 @@ button
 	color: #f9faf8;
 	font-size: 48px;
 	font-weight: bolder;
-	margin: auto;
+	margin: 0;
 }
 
 .quote-text h2 {
